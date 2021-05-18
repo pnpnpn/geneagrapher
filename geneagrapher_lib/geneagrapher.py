@@ -2,9 +2,9 @@ from argparse import ArgumentParser
 from collections import deque
 import pkg_resources
 import sys
-from .cache_grabber import CacheGrabber
-from .graph import Graph
-from .grabber import Grabber
+from geneagrapher_lib.cache_grabber import CacheGrabber
+from geneagrapher_lib.graph import Graph
+from geneagrapher_lib.grabber import Grabber
 
 
 class Geneagrapher:
